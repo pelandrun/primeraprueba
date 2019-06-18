@@ -1,21 +1,18 @@
 {  
-"name": "Ranchero/Testpsr4",  
-"description": "Nacho, nacho man. I want to be a nacho man",  
-"license": "MIT",  
-"keywords": ["testpsr4"],  
-"authors": [  
-{  
-"name": "Philip Brown",  
-"email": "name@domain.com"  
-}  
-],  
-"require": {},  
-"require-dev": {  
-"phpunit/phpunit": "4.0.*"  
-},  
-"autoload": {  
-"psr-4": {  
-"Ranchero\\Testpsr4\\": "src"  
-}  
-}  
+	"name": "ranchero/testpsr4",  
+	"description": "Nacho, nacho man. I want to be a nacho man",  
+	"license": "MIT",  
+	"keywords": ["testpsr4"],  
+	"authors": [  
+		{  
+			"name": "Philip Brown",  
+			"email": "name@domain.com"  
+		}  
+	],  
+	"require": {},  
+	"autoload": {  
+		"psr-4": {  
+			"Ranchero\\Testpsr4\\": "src"  
+		}  
+	}	  
 }  
